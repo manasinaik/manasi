@@ -5,7 +5,7 @@ pipeline {
         stage('Run Script') {
             steps {
                 script {
-                    sh "touch /tmp/j1"
+                    sh "touch /tmp/j1-01"
                 }
             }
         }
